@@ -155,6 +155,6 @@ Future Versions will focus on AI-powered recruitment features and cloud deployme
 
 ## Author
 
-Nithiya Bharathi
+Nagaraj M
 
-MCA Graduate | Aspiring Software Engineer | Python & Cloud Enthusiast
+MCA Graduate | Aspiring Software Engineer | Python 
