@@ -77,6 +77,32 @@ Through this project, I gained hands-on experience in:
 
 ---
 
+## Project Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home-page.png)
+
+### Result Dashboard
+
+![Result Dashboard](screenshots/result-page.png)
+
+### Analysis History
+
+![History](screenshots/history-page.png)
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+Open:
+
+http://127.0.0.1:5000
+
+
 ## Future Enhancements
 
 ### AI-Based Skill Extraction
