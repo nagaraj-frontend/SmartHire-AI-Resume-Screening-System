@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis History</title>
+</head>
+<body>
 
+    <h1>Analysis History</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>ID</th>
+            <th>Candidate</th>
+            <th>Score</th>
+        </tr>
+
+        {% for row in records %}
+
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[4] }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
