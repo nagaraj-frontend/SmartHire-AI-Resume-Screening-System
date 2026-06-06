@@ -81,15 +81,15 @@ Through this project, I gained hands-on experience in:
 
 ### Home Page
 
-![Home Page](screenshots/home-page.png)
+![Home Page](screenshots/home_page.png)
 
 ### Result Dashboard
 
-![Result Dashboard](screenshots/result-page.png)
+![Result Dashboard](screenshots/result_page.png)
 
 ### Analysis History
 
-![History](screenshots/history-page.png)
+![History](screenshots/history_page.png)
 
 ## Run Locally
 
