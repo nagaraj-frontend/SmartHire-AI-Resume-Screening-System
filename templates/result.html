@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartHire Result</title>
 
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>SmartHire Analysis Dashboard</h1>
+
+<h2>
+Candidate : {{ candidate_name }}
+</h2>
+
+<h2 class="score">
+Match Score : {{ score }}%
+</h2>
+
+<div class="progress-bar">
+
+<div
+class="progress"
+style="width: {{ score }}%;">
+
+{{ score }}%
+
+</div>
+
+</div>
+
+<br>
+
+<h3>✅ Matched Skills</h3>
+
+<ul>
+
+{% for skill in matched_skills %}
+
+<li>{{ skill }}</li>
+
+{% endfor %}
+
+</ul>
+
+<h3>❌ Missing Skills</h3>
+
+<ul>
+
+{% for skill in missing_skills %}
+
+<li>{{ skill }}</li>
+
+{% endfor %}
+
+</ul>
+
+<br>
+
+<a href="/">
+<button>
+Analyze Another Resume
+</button>
+</a>
+
+</div>
+
+</body>
+</html>
