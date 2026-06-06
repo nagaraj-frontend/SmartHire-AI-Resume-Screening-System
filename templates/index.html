@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartHire</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 
+<div class="container">
+
+<h1>SmartHire Resume Screening System</h1>
+
+<form method="POST"
+      action="/analyze"
+      enctype="multipart/form-data">
+
+<label>Candidate Name</label>
+
+<br><br>
+
+<input
+type="text"
+name="candidate_name"
+placeholder="Enter Candidate Name">
+
+<br><br>
+
+<label>Upload Resume (PDF)</label>
+
+<br><br>
+
+<input
+type="file"
+name="resume_file"
+accept=".pdf">
+
+<br><br>
+
+<br><br>
+
+<label>Job Description Skills</label>
+
+<textarea
+name="job"
+rows="8"
+placeholder="Python SQL Docker">
+</textarea>
+
+<br><br>
+
+<button type="submit">
+Analyze Resume
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
